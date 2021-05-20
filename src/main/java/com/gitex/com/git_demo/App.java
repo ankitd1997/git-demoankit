@@ -9,6 +9,9 @@ public class App
 	
 	public void adddata(String Data) {
 		System.out.println("print"+Data);
+		if(Data.equals("anki")) {
+			System.out.println("well");
+		}
 	}
     public static void main( String[] args )
     {
